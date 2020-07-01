@@ -1,0 +1,62 @@
+@font-face 
+    font-family: 'icomoon'
+    src: url('../fonts/icomoon.ttf')
+    font-weight: normal
+    font-style: normal
+    font-display: block
+
+.viewer 
+    display: none
+    position: absolute
+    top: calc(50% - 250px)
+    left: calc(50% - 250px)
+    z-index: 2
+
+.overlay 
+    display: none
+    height: 100%
+    width: 100%
+    position: absolute
+    z-index: 1
+    background-color: black
+    opacity: 0.5
+    cursor: pointer
+   
+.list
+    list-style: none
+li
+    margin-bottom: 10px
+.photo
+    display: flex
+    
+.item
+    &-content
+        display: flex
+        margin-bottom: 10px
+
+
+    
+.icon
+    font-family: 'icomoon' !important
+    &-star
+        opacity: 0.4
+    &-star:hover,
+    &-star.active
+        opacity: 1.0
+        color: yellow
+    &-star::after
+        content: "\e9d9"
+        font-size: 24px
+        position: relative
+        right: 8px
+    &-arrow::after 
+        content: url(../img/next.png)
+        display: block
+        width: 12px
+        height: 12px
+        position: relative
+        right: 6px
+    &-collapse::after 
+        transform: rotate(90deg)
+
+        
