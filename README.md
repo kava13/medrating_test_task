@@ -1,5 +1,5 @@
 # Задание
-***
+
 Есть API для получения альбомов, фотографий, и юзеров: 
 https://json.medrating.org/albums?userId=3
 
