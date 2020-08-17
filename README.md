@@ -1,3 +1,9 @@
 # mr_test_task
 
-https://docs.google.com/document/d/14XHJD3qQ9TYT9f9rhRLIAO5z8kRlvZ0MVE7-xRpDdqs/edit
+Есть API для получения альбомов, фотографий, и юзеров: 
+https://json.medrating.org/albums?userId=3
+https://json.medrating.org/photos?albumId=2
+https://json.medrating.org/users/
+
+Сделать страницу, на которой выводятся фото, примерный макет:
+
