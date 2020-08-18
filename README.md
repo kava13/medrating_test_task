@@ -8,7 +8,7 @@
 
 Сделать страницу, на которой выводятся фото, примерный макет:
 
-![alt tag] (https://ibb.co/qWV1F12)
+![alt tag] (https://cdn1.savepice.ru/uploads/2020/8/18/b142a702d636faeefc87d7c5022399bd-full.jpg)
 
 
 
