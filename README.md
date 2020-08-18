@@ -7,6 +7,7 @@
     https://json.medrating.org/users/
 
 Сделать страницу, на которой выводятся фото, примерный макет:
+![alt tag] (https://ibb.co/qWV1F12)
 
 
 
