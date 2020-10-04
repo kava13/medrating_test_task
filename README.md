@@ -8,7 +8,7 @@
 
 Сделать страницу, на которой выводятся фото, примерный макет:
 
-![alt text](https://cdn1.savepice.ru/uploads/2020/8/18/b142a702d636faeefc87d7c5022399bd-full.jpg)
+![alt text](https://github.com/kava13/medrating_test_task/raw/master/img/task.png)
 
 Требования
 -----------------------------------
