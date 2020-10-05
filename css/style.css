@@ -45,7 +45,7 @@ h1 {
  */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -83,7 +83,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -231,7 +231,7 @@ fieldset {
  */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -266,7 +266,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -348,8 +348,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 30px;
 }
 
@@ -358,7 +358,7 @@ template {
 }
 
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("../fonts/icomoon.ttf");
   font-weight: normal;
   font-style: normal;
@@ -406,15 +406,16 @@ li {
 }
 
 .icon {
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
 }
 
 .icon-star {
   opacity: 0.4;
 }
 
-.icon-star:hover, .icon-star.active {
-  opacity: 1.0;
+.icon-star:hover,
+.icon-star.active {
+  opacity: 1;
   color: yellow;
 }
 
@@ -436,6 +437,6 @@ li {
 
 .icon-collapse::after {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 /*# sourceMappingURL=style.css.map */

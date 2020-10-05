@@ -1,32 +1,27 @@
 export class API {
+  constructor() {
+    this.URL = "https://json.medrating.org";
+  }
 
-    constructor() {
+  getData = async (url) => {
+    const res = await fetch(url);
 
-        this.URL = 'https://json.medrating.org';
-
+    if (res.ok) {
+      return res.json();
+    } else {
+      throw new Error(`Not enought data from : ${url}`);
     }
+  };
 
-    getData = async (url) => {
+  getUsers = () => {
+    return this.getData(`${this.URL}/users`);
+  };
 
-        const res = await fetch(url);
-        
-        if (res.ok) {
-            return res.json();
-        } else {
-            throw new Error(`Not enought data from : ${url}`);
-        }
+  getAlbumsByUser = (userID) => {
+    return this.getData(`${this.URL}/albums?userId=${userID}`);
+  };
 
-    }
-
-    getUsers = () => {
-        return this.getData(`${this.URL}/users`)
-    }
-
-    getAlbumsByUser = (userID) => {
-        return this.getData(`${this.URL}/albums?userId=${userID}`)
-    }
-
-    getPhotosByAlbum = (albumID) => {
-        return this.getData(`${this.URL}/photos?albumId=${albumID}`)
-    }
+  getPhotosByAlbum = (albumID) => {
+    return this.getData(`${this.URL}/photos?albumId=${albumID}`);
+  };
 }
